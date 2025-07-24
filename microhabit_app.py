@@ -127,4 +127,3 @@ elif menu == "Suggestions":
         st.write("### Suggested Micro-Habits:")
         for habit in suggestions[condition]:
             st.write(f"- {habit}")
-Built by Dr.Suman Kotwal
