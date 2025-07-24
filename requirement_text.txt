@@ -1,4 +1,3 @@
-microhabit_app/
-   ├── app.py
-   ├── data/
-   └── requirements.txt
+streamlit
+pandas
+matplotlib
