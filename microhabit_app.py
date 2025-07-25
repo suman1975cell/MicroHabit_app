@@ -17,7 +17,9 @@ st.title("🌱 MicroHabit Coach – Behavioral Nudging App")
 menu = st.sidebar.radio(
     "Navigate",
     ["Home", "Add Habit", "Track Progress", "Visualize Progress", "Suggestions"]
-)
+)# --- Sidebar Footer ---
+st.sidebar.markdown("---")
+st.sidebar.caption("**Built by Dr. Suman Kotwal**")
 
 # ------------------- Home -------------------
 if menu == "Home":
